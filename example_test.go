@@ -3,7 +3,7 @@ package color_test
 import (
 	"fmt"
 
-	"github.com/andmarios/color"
+	"github.com/andmarios/go-color"
 )
 
 func ExampleDo() {
