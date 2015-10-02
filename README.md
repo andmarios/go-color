@@ -1,5 +1,7 @@
 # color
 
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg)](http://godoc.org/github.com/andmarios/go-color)
+
 Color is a tiny go package to convert a string with color tags to a string with
 bash color escape sequences.
 
@@ -7,7 +9,7 @@ Given this:
 
     Hello, this is [red]coloured[/red] and this is [bold]emphasis[/bold]
 
-It will producec this:
+It will produce this:
 
     Hello, this is \033[31mcoloured\033[39m and this is \033[1memphasis\033[21;22m
 
